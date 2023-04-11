@@ -82,3 +82,46 @@ form{
     margin-top: 10px;
     display: block;
 }
+/* responsiveness for tabs */
+@media  screen and (max-width:900px) and (min-width: 500px){
+    .heading{
+        font-size: 25px;
+    }
+    .form-grp label{
+        font-size: 14px;
+    }
+    .form-grp input{
+        width: 80vw;
+        height: 35px;
+        font-size: 14px;
+    }
+    .submit-btn{
+        padding: 6px 6px;
+        font-size: 14px;
+    }
+    .error{
+        font-size: 14px;
+    }
+}
+/* responsiveness for mobiles */
+@media  screen and (max-width:500px){
+    .heading{
+        font-size: 20px;
+        margin: auto 10px;
+    }
+    .form-grp label{
+        font-size: 12px;
+    }
+    .form-grp input{
+        width: 80vw;
+        height: 30px;
+        font-size: 12px;
+    }
+    .submit-btn{
+        padding: 4px 4px;
+        font-size: 12px;
+    }
+    .error{
+        font-size: 12px;
+    }
+}
